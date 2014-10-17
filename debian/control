@@ -1,4 +1,4 @@
-Source: vx-bootsplash
+Source: vx-dga-bootsplash
 Section: x11
 Priority: extra
 Maintainer: Jose Antonio Chavarría <jachavar@gmail.com>
@@ -6,11 +6,11 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Homepage: https://github.com/vitalinux/vx-bootsplash
 
-Package: vx-bootsplash
+Package: vx-dga-bootsplash
 Architecture: all
-Provides: vx-virtual-bootsplash, plymouth-theme
-Conflicts: vx-virtual-bootsplash
-Replaces: vx-virtual-bootsplash
+Provides: vx-dga-virtual-bootsplash, plymouth-theme
+Conflicts: vx-dga-virtual-bootsplash
+Replaces: vx-dga-virtual-bootsplash
 Depends: ${misc:Depends}, plymouth, plymouth-label
 Description: Customizing Ubuntu bootsplash.
  Based in http://www.ubunturoot.com/2012/03/paw-1204-plymouth-theme.html.

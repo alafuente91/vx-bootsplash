@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for vx-bootsplash
+# postinst script for vx-dga-bootsplash
 #
 # see: dh_installdeb(1)
 
